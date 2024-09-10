@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 1em;
+}
+
+button {
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  width: 100px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
